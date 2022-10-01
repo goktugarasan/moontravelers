@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Ontario's International Outreach</title>
+    <title>Moonquake Map</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,52 +26,14 @@
     </script>
 
   </head>
-  <body>
-    <!-- for pre-loading -->
-    <div class="se-pre-con"></div>
+  <body style="background-color:black;">
 
-    <!-- hamburger menu  -->
-    <div id="closeContainer">
-      <div id="closeButton">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
 
-    <!-- side navigator -->
-    <div id="mySidenav" class="sidenav">
-      <div id="searchContainer">
-        <input type="text" id="myInput" onkeyup="searchBar()" placeholder="" maxlength="30">
-        <img id="searchicon" src="img/searchicon.png" alt="searchicon" height="20" width="20">
-        <img id="clearicon" src="img/error.png" alt="searchicon" height="24" width="24">
-      </div>
-      <div class="countryContainer">
-        <ul class="countryList lead"></ul>
-      </div>
-      <div id="devider"></div>
-      <div id="functions">
-      	<div class="wtwig-button-new light-grey">
-          <button id="changeBackgroundButton">Change Background</button>
-        </div>
-        <div class="wtwig-button-new light-grey">
-          <button id="changeFullScreenButton">Enter FullScreen</button>
-        </div>
-        <div class="wtwig-button-new light-grey">
-          <button id="returnHomeButton">Return Homepage</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- main container -->
     <main class="container-fluid">
       <div class="row align-items-center justify-content-center d-flex flex-wrap" id="contentWrapper">
 
         <div class="col-xl-5 ">
           <div id="sidebar">
-            <div class="d-lg-block" id="logoContainer">
-              <img src="http://www.investinontario.com/./sites/default/themes/invest2018/images/ontario-canada-wtwig.svg" alt="Ontario_Invesment_Office_Logo" class="img-fuild logo"/>
-            </div>
             <div id="contentContainer">
               <h1 id="countryName"></h1>
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 720 58.2" style="margin-top: -11px;" xml:space="preserve">
@@ -101,11 +63,7 @@
 
       </div>
     </main>
-
-    <!-- container for brand logo -->
-    <div id="logoBottomRight"></div>
-
-    <!-- message if screen size is too small -->
+	  
     <div id="screenSizeMessage">
       <img src="http://www.investinontario.com/./sites/default/themes/invest2018/images/ontario-canada-wtwig.svg" alt="Ontario_Invesment_Office_Logo" class="img-fuild" id="phoneLogo"/>
       <h1 id="phoneText" class="lead">For optimal experience, please use a larger device</h1>
